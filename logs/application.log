@@ -1,0 +1,20 @@
+2024-08-02 10:43:19 INFO  StudentServlet:28 - PostgreSQL JDBC Driver loaded successfully
+2024-08-02 10:43:19 DEBUG StudentServlet:52 - Received POST request
+2024-08-02 10:43:19 DEBUG StudentServlet:75 - Entering createStudent method
+2024-08-02 10:43:19 INFO  StudentServlet:79 - Attempting to create student with name: Danniel Niyibizi
+2024-08-02 10:43:19 INFO  StudentServlet:88 - Student created successfully with ID: 6
+2024-08-02 10:43:19 DEBUG StudentServlet:105 - Exiting createStudent method
+2024-08-02 10:43:38 DEBUG StudentServlet:35 - Received GET request
+2024-08-02 10:43:38 WARN  StudentServlet:46 - Invalid action for GET request: /index.html
+2024-08-02 10:43:50 DEBUG StudentServlet:35 - Received GET request
+2024-08-02 10:43:50 DEBUG StudentServlet:109 - Entering readStudent method
+2024-08-02 10:43:50 INFO  StudentServlet:113 - Attempting to read student with ID: 5
+2024-08-02 10:43:50 INFO  StudentServlet:125 - Student found: ID=5, Name=Byiringiro Christain
+2024-08-02 10:43:50 DEBUG StudentServlet:151 - Exiting readStudent method
+2024-08-02 10:44:14 DEBUG StudentServlet:35 - Received GET request
+2024-08-02 10:44:14 WARN  StudentServlet:46 - Invalid action for GET request: /index.html
+2024-08-02 10:44:41 DEBUG StudentServlet:52 - Received POST request
+2024-08-02 10:44:41 DEBUG StudentServlet:202 - Entering deleteStudent method
+2024-08-02 10:44:41 INFO  StudentServlet:206 - Attempting to delete student with ID: 3
+2024-08-02 10:44:41 INFO  StudentServlet:217 - Student deleted successfully: ID=3
+2024-08-02 10:44:41 DEBUG StudentServlet:242 - Exiting deleteStudent method

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>NewClass</display-name>
+    <servlet-name>NewClass</servlet-name>
+    <servlet-class>Demo.NewClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewClass</servlet-name>
+    <url-pattern>/NewClass</url-pattern>
+  </servlet-mapping>
+  <display-name>TodayApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>studentServlet</display-name>
+    <servlet-name>studentServlet</servlet-name>
+    <servlet-class>Demo.studentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>studentServlet</servlet-name>
+    <url-pattern>/studentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DisplayStudentsServlet</display-name>
+    <servlet-name>DisplayStudentsServlet</servlet-name>
+    <servlet-class>Demo.DisplayStudentsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayStudentsServlet</servlet-name>
+    <url-pattern>/DisplayStudentsServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
